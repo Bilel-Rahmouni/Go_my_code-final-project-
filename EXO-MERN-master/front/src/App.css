@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+.App {
+  text-align: center;
+}
+
+.login {
+  width: 27em;
+  height: 40em;
+  margin-top: 25px;
+  margin-left: 35%;
+  z-index: 99;
+}
+.btn {
+  font-size: 21px;
+  padding: 5px 20px;
+  border: 0;
+  background-color: #3498db;
+  color: #fff;
+  border-radius: 3px;
+  transition: all 250ms ease-in-out;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #2386c8;
+}
+.btn:focus {
+  outline: none;
+}
+
